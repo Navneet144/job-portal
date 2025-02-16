@@ -1,0 +1,16 @@
+"""
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Average Salary</title>
+</head>
+<body>
+    <h1>Average Salary for Python Developers in {{ city }}</h1>
+    {% if avg_salary is not None %}
+        <p>The average salary is {{ avg_salary }}</p>
+    {% else %}
+        <p>No data available</p>
+    {% endif %}
+</body>
+</html>
+"""
