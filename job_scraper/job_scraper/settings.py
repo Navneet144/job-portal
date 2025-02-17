@@ -83,7 +83,7 @@ DATABASES = {
         'ENGINE': 'djongo',  # Use Djongo for MongoDB
         'NAME': 'job_scraper',  # MongoDB database name
         'CLIENT': {
-            'host': 'mongodb+srv://user_name:password@cluster0.oqox0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
+            'host': 'mongodb+srv://nkumarnkumar900544:cAufg88hcRONhUCH@cluster0.oqox0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
         }
     }
 }
