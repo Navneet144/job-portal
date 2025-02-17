@@ -10,7 +10,7 @@ from django.http import HttpResponseForbidden
 from django.contrib.auth.decorators import login_required
 
 # MongoDB Connection
-client = MongoClient("mongodb+srv://user_Idname:Password@cluster0.oqox0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client = MongoClient("mongodb+srv://nkumarnkumar900544:cAufg88hcRONhUCH@cluster0.oqox0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 db = client["job_scraper"]
 collection = db["jobs"]
 
