@@ -17,7 +17,7 @@ USER_AGENTS = [
 ]
 
 # MongoDB Configuration
-MONGO_URI = "mongodb+srv://nkumarnkumar900544:cAufg88hcRONhUCH@cluster0.oqox0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URI = "mongodb+srv://user_idname:password@cluster0.oqox0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = "job_scraper"
 COLLECTION_NAME = "jobs"
 
